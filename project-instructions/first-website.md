@@ -642,6 +642,14 @@ After completing this TODO, your updated `<div class="content">` element should 
 
      </ul>
      ```
+\
+
+
+
+
+
+
+
 
 4. **Add two list items for the menu**  
    - **Inside the `<ul>` element**, add the following two `<li>` elements:

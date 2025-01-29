@@ -1,12 +1,125 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CHANGE ME</title>
-  </head>
+      <title> Brat life</title>
+      <link rel="stylesheet"
+  href="style.css"
+  body {
+    background: pink;
+    color: yellow;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#all-contents {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* navigation menu */
+nav {
+    background: rgb(239, 80, 41);
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    flex: 1;
+    margin: 0;
+}
+
+#nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* main container area beneath menu */
+main {
+    background: rgb(245, 238, 219);
+    display: flex;
+    margin-top: 20px;
+}
+
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+
+.sidebar-img {
+    width: 200px;
+}
+
+.content {
+    flex: 1;
+    padding: 15px;
+}
+
+/* interests section styles */
+#interests {
+    border: 4px silver ridge;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+h2, h3 {
+    margin: 0px;
+} />
+    </head>
 
   <body>
-    <!-- All content goes here -->
-    <div id="all-contents">
+    <!-- all content goes here-->
+    <div id="all-contents" 
+      <nav> 
+    <h1>A bit of a brat</h1>
+    <ul id="nav-ul">
+      <li class="nav-li">
+        <a href="index.html">Home</a>
+     </li> 
+     <li class="nav-li"> 
+      <a href="portfolio.html">Portfolio</a>
+     </li>
+   </ul>
+ </nav> 
+      
+      <main> 
+        <div class="sidebar">
+            <img class="sidebar-img"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEG58KAiUoZN79L7R_SmKp1l5CB43alO6Sog&s">
+        </div> 
+        
+        <div class="content"> 
+          <h2>Nayah</h2>
+          <p>Student at G.W.C</p>
+          </div>
+          
+          <div id="interests"> 
+            <h3>Interests</h3>
+            <ul>
+              <li>Shopping</li> 
+              <li>Eating</li> 
+              <li>Sleeping</li>
+            </ul>
+        </div>
+      </div>
+
+      </main>
       
     </div>
   </body>
