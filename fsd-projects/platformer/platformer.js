@@ -45,7 +45,7 @@ $(function () {
     createCollectable("diamond", 550,560,0.5,0.7);
     createCollectable("kennedi", 700,100, 0.3,0.5);
     createCollectable("max", 250,200,0.5,0.7);
-    
+    createCollectable("kennedi",900,500,0.5,0.7)
 
 
 
